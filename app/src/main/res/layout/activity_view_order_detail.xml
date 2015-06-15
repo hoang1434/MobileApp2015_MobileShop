@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <!-- Email Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chi tiết đơn hàng"
+        android:id="@+id/textView12" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã đơn hàng"
+        android:singleLine="true"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Email input text -->
+    <TextView android:id="@+id/txtMadonhangCT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="Apple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 Plus"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:textStyle="bold|italic" />
+
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Password input text -->
+    <TextView android:id="@+id/txtTensanphamCT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Apple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 Plus" />
+
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Password input text -->
+    <TextView android:id="@+id/txtSoluongCT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Apple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 Plus" />
+
+    <!-- Login button -->
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Đơn giá"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Password input text -->
+    <TextView android:id="@+id/txtDongiaCT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Apple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 Plus" />
+
+    <!-- Login button -->
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền"
+        android:layout_marginBottom="5dip"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+
+    <!-- Password input text -->
+    <TextView android:id="@+id/txtTongtienCT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="Apple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 PlusApple iPhone 6 Plus"
+        android:textColor="#ffff0200" />
+
+    <!-- Login button -->
+    <!-- Login button -->
+    <Button android:id="@+id/btnHome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Về trang chủ"/>
+
+</LinearLayout>

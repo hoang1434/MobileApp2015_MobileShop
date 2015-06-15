@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <!-- Email Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Thông tin tài khoản"
+            android:id="@+id/textView12" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px" />
+
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ tên"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Name  -->
+        <EditText android:id="@+id/txtHotenInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+        <!-- Số điện thoại -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Số điện thoại  -->
+        <EditText android:id="@+id/txtSodienthoaiInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginBottom="20dip"
+            android:singleLine="true"/>
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Email  -->
+        <EditText android:id="@+id/txtEmailInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
+
+        <!-- Địa chỉ -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Địa chỉ  -->
+        <EditText android:id="@+id/txtDiachilInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:inputType="textPostalAddress"
+            android:singleLine="true"/>
+
+        <!-- Register button -->
+        <Button android:id="@+id/btnChangeInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật thông tin"/>
+
+    </LinearLayout>
+</ScrollView>
